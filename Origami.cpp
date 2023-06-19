@@ -639,13 +639,18 @@ int main(int argc,char **argv)
 {
     printf("\n\n\t\t\t    *********  ORIGAMI 3D ANIMATION  *********\n");
     printf("             \n\t\t\t\t ANIMATION OF A PAPER BOAT\n");
-    printf("\n\n\n\n\n\n\n\n\n\t\t\t\t MADE BY---\n");
-    printf("\t\t\t\t\t ADITYA NARAYAN JHA(1AM20CS012) \n \t\t\t\t\t AKSHITH P(1AM20CS017)\n \t\t\t\t\t CHARAN KRISHNA(1AM20CS050)");
+    printf("             \n\n\t\t\t\t For Movement");
+    printf("             \n\n\t\t\t\t  Press I: Rotaion about X-axis");
+    printf("             \n\t\t\t\t  Press J: Rotaion about Y-axis");
+    printf("             \n\t\t\t\t  Press K: Rotaion about Z-axis");
+    printf("             \n\t\t\t\t  Press Z: To stop/halt rotation");
+    printf("\n\n\n\n\t\t\t\t MADE BY---\n");
+    printf("\t\t\t\t\t ADITYA NARAYAN JHA(1AM20CS012) \n \t\t\t\t\t AKSHITH P(1AM20CS017)\n \t\t\t\t\t CHARAN KRISHNAA CA(1AM20CS050)");
     glutInit(&argc,argv);
     glutInitDisplayMode(GLUT_RGB|GLUT_DEPTH|GLUT_DOUBLE);
     glutInitWindowPosition(50,50);
     glutInitWindowSize(640,640);
-    glutCreateWindow("origami");
+    glutCreateWindow("Origami");
     glEnable(GL_DEPTH_TEST);
     glutDisplayFunc(display);
     glutReshapeFunc(reshape);
